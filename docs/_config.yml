@@ -1,0 +1,6 @@
+remote_theme: pmarsceill/just-the-docs
+
+title: Negshell Casting
+description: A Cool New Casting Technique
+baseurl: "/docs" # the subpath of your site, e.g. /blog
+url: "https://prnthp.github.io/negshell" # the base hostname & protocol for your site, e.g. http://example.com
