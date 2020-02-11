@@ -2,7 +2,6 @@ plugins:
   - jekyll-remote-theme
 
 title: Negshell Casting
-theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 description: A Cool New Casting Technique
 aux_links:
