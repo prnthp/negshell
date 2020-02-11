@@ -72,7 +72,7 @@ Using release agents is highly recommended for any silicone casting project. For
 |Name|Mold Material|Link|
 |----|-------------|----|
 |**Pol-Ease 2500**|3D Printed (thoroughly cleaned), Silicone Rubber, and most materials|[Polytek](//www.polytek.com/products/pol-ease-2500-release-agent)|
-|Ease Release|3D Printed (thoroughly cleaned), Silicone Rubbe, and most materials|[Smooth-On](//www.smooth-on.com/product-line/ease-release/)|
+|Ease Release|3D Printed (thoroughly cleaned), Silicone Rubber, and most materials|[Smooth-On](//www.smooth-on.com/product-line/ease-release/)|
 |Pretoleum Jelly|Human Skin (Lifecasting)|Any drugstore|
 
 *Please be careful around using release agents and work in a ventilated area with proper protection, as they are harmful!*
@@ -81,7 +81,7 @@ Using release agents is highly recommended for any silicone casting project. For
 To get the proper mechanical properties and cure from two-part silicone rubbers, the liquid silicone must be mixed thoroughly. This comes at the cost of introducing trapped gasses and bubbles to the mixture. Casting silicone rubber with bubbles will often result in weaker parts and bubbles can lead to ruptures and leaks in thin-walled structures. **Vacuum degassing** is usually the preferred method for removing gas bubbles trapped in mixed silicone rubber. This is done by placing the mixed silicone liquid (usually in a cup) into a vacuum pot (also known as catch-pots for infusing resins) and applying a -29 mmHg vacuum with at least 8 CFM of airflow using a vacuum pump. Rotary vane vacuum pumps can be costly, and alternatives such as vacuum hand-pumps can be used, but does not always work due to the high viscosity of liquid silicone rubber.
 
 ## Fabrication Guidelines
-Here are guidelines to casting soft robotic parts using silicone rubber. Some of these are experience - your mileage may vary!
+Here are guidelines to casting soft robotic parts using silicone rubber. Some of these are from experience - your mileage may vary!
 
 ### General Equipment
 1. Silicone rubber
