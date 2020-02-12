@@ -17,13 +17,15 @@ For example, we use several structural cores to help transmit the force from the
 {:toc}
 
 ## Characteristics
+Structural cores will increase the stiffness (Elastic Modulus) of the silicone part up to over 500% and depending on the thickness of the structural core and weight down to 67% depending on the geometry. The following plot shows the different stress-strain curves achieved with various thicknesses of the structural cores.
+
 
 ## Designing
 Creating structural cores in CAD is similar to the workflow for negshell cores. The only difference is there is no perforation.
 
 (*SW* denotes steps that are for SolidWorks, however all the following steps can be adapted to other software.)
 
-1. Starting with a solid geometry of the desired core, create a thin surface that is thickened towards the internal of the cavity of the core. The thickness can vary between 0.4 mm to 0.6 mm depending on the use case. Please see the above characteristics for rough guidance.
+1. Starting with a solid geometry of the desired core, create a thin surface that is thickened towards the inside of the core. The thickness can vary between 0.4 mm to 0.6 mm depending on the use case. Please see the above characteristics for rough guidance.
     1. *SW* - It is advisable to add fillets so the core has tangent continuity across the whole surface.
     1. *SW* - Use the **Surface Offset** command and set the **Offset to 0 mm** to create a copy of the surface.
     1. *SW* - Use the **Thicken** command to thicken the surface by **0.4 mm to 0.6 mm** *inwards* (right most button of the three options). Make sure to **untick Merge Result**. Then hide the original solid body. *This thickness can be tweaked and tuned for different printers or materials.*
@@ -33,6 +35,8 @@ Creating structural cores in CAD is similar to the workflow for negshell cores. 
     1. *SW* - Hide all the bodies except for the structural cores and go to **File → Save As...** and select the .STL format or best format for your SLA/DLP printer.
 
 Again, more advanced users of SolidWorks should design the cores and molds together in a single part with multiple bodies so design changes can propagate throughout the mold and cores at once.
+
+For examples of using a negshell cores in oft robotic designs, see the Finger and Gripper examples.
 
 ## Printing
 3D printing the structural cores has the same process as the negshell cores. We used Formlabs Clear V4 resin.
@@ -45,5 +49,3 @@ Again, more advanced users of SolidWorks should design the cores and molds toget
 1. After printing, remove the parts using the raft and trim away the supports carefully. Use a paper towel doused in 95% or higher IPA to wipe the cores clean. Unlike negshell cores, structural cores can withstand brief submersion into an IPA bath if needed.
 1. Structural core parts tend to hold more residual resin than negshell cores. Simply lay the part on a paper towel so that one of mounting holes can be used to drain the the residual resin. If necessary, submerse the core briefly in IPA to help dissolve and thin the resin down.
 1. (Optional) Cure the part in a UV oven for even higher stiffness.
-
-## Use in Fabrication

@@ -4,9 +4,9 @@ nav_order: 4
 layout: default
 ---
 
-# Test Specimens
+# Specimens for Mechanical Testing
 {: .no_toc }
-There will be pretty pictures here!
+
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -14,8 +14,9 @@ There will be pretty pictures here!
 1. TOC
 {:toc}
 
-## Designing
+## Design
 
-## Printing
+<script src="https://embed.github.com/view/3d/prnthp/negshell/master/files/specimens/20x15Mold_Top.STL"></script>
 
-## Fabrication
+
+## Experimental Setup

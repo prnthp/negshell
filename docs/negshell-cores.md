@@ -36,7 +36,7 @@ Creating negshell cores in CAD is a straightforward process and can be adapted t
 
 (*SW* denotes steps that are for SolidWorks, however all the following steps can be adapted to other software.)
 
-1. Starting with a solid geometry of the desired core, create a thin surface that is thickened towards the internal of the cavity of the core. We found that a thickness of 0.4 mm is ideal since it is the thinnest wall that the Formlabs Form 2 can print.
+1. Starting with a solid geometry of the desired core, create a thin surface that is thickened towards the inside core. We found that a thickness of 0.4 mm is ideal since it is the thinnest wall that the Formlabs Form 2 can print.
     1. *SW* - It is advisable to add fillets so the core has tangent continuity across the whole surface.
     1. *SW* - Use the **Surface Offset** command and set the **Offset to 0 mm** to create a copy of the surface.
     1. *SW* - Use the **Thicken** command to thicken the surface by **0.4 mm** inwards (right most button of the three options). Make sure to **untick Merge Result**. Then hide the original solid body. *This thickness can be tweaked and tuned for different printers or materials.*
@@ -52,6 +52,8 @@ Creating negshell cores in CAD is a straightforward process and can be adapted t
 
 More advanced users of SolidWorks should design the cores and molds together in a single part with multiple bodies so design changes can propagate throughout the mold and cores at once.
 
+For examples of using a negshell cores in oft robotic designs, see the Finger and Gripper examples.
+
 ## Printing
 3D printing negshell cores has only been tested on a Formlabs Form 2 and a Formlabs Form 3 printer. In theory, any SLA or DLP printer should work, so perform tests with small samples to find the right parameters for your printer. This workflow is also mainly for Formlab's Preform software, although it can also be adapted to other printers. We also provide readily printable .preform files in the [Downloads](/downloads#simple-design-examples) section. We used Formlabs Clear V4 resin.
 
@@ -66,5 +68,3 @@ More advanced users of SolidWorks should design the cores and molds together in 
         1. Right click on the part and click **Replace...**. Replace the part with your negshell core. The supports will be regenerated, but only around the existing supports. Ignore any errors about printability on the negshell core.
 1. Print the part(s). The negshell perforations and mounting holes will provide an escape for resin that is trapped during the printing process.
 1. After printing, remove the parts using the raft and trim away the supports carefully. Use a paper towel doused in 95% or higher IPA to wipe the cores clean. We advise against submerging the parts in IPA due to absorption that can lead to cracks in the thin walls.
-
-## Use in Fabrication
