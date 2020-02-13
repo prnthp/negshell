@@ -7,13 +7,13 @@ layout: default
 
 # Negshell Cores
 {: .no_toc }
-Typical [cores](/molding-and-casting#cores) during molding and casting need to be removed after casting. This is fine for solid structures that are orders of magnitude more stronger than their cores such as sand-based cores for metal casting. For weaker materials, such as those used in soft robotics and wax or other dissolvable cores can be used. The problem with wax or dissolvable cores is that they often do not have the geometric stability and accuracy afforded by their respective fabrication methods. For example, wax is very fragile and prone to breaking, and has significant shrinkage.
+Typical [cores](molding-and-casting#cores) during molding and casting need to be removed after casting. This is fine for solid structures that are orders of magnitude more stronger than their cores such as sand-based cores for metal casting. For weaker materials, such as those used in soft robotics and wax or other dissolvable cores can be used. The problem with wax or dissolvable cores is that they often do not have the geometric stability and accuracy afforded by their respective fabrication methods. For example, wax is very fragile and prone to breaking, and has significant shrinkage.
 
 For soft robots, the cores are essential to make the internal features such as fluid channels, expanding bellows and sensor structures. Cores that have to be removed later greatly reduces the design flexibility and increase the amount of steps required to fabricate soft robots. Our **negshell cores** introduce a new type of core that does not need to be removed in any step of the fabrication process!
 
 Negshell cores are sacrificial, internal, eggshell-type cores (negative eggshells → negshell) that are simply crushed by hand after being casted around. Negshell cores are simply thin-walled (0.4 mm) closed shapes with tiny perforations that span the surface of the core that create a grid of weak points for them to break into small pieces. This means that the cores can be simply left inside the soft robot - cutting down the repeated process of casting in multiple times on the same part while expanding the design possibilities for soft robots.
 
-Note that negshell cores need not be closed volumes, they can be thin walls that become the internal voids of a bellow, as shown in the [Finger](/example-finger) example or other structures that require a collapsible internal feature.
+Note that negshell cores need not be closed volumes, they can be thin walls that become the internal voids of a bellow, as shown in the [Finger](example-finger) example or other structures that require a collapsible internal feature.
 
 ## Table of contents
 {: .no_toc .text-delta }

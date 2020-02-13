@@ -7,7 +7,7 @@ layout: default
 
 # Molding and Casting for Soft Robotics
 {: .no_toc }
-Soft robots tend to rely on internal structures to operate. The infamous [PneuNets actuator](//softroboticstoolkit.com/book/pneunets-bending-actuator) used in many different soft robotic designs rely on a set of internal bellows that expand. Soft robotic sensors, especially those that operate using fluids like [salt water](//softroboticstoolkit.com/contact-sensor) or [EGaIn](//softroboticstoolkit.com/book/egain-sensors), rely on fluid channels that change shape and volume. The most common design element amongst these robotic components is usually silicone elastomer. Silicone rubber, unlike metal and most plastics, can stretch and deform by over 600% their original shape. Silicone rubber is also soft and compliant, like human tissue, so it is safer to be used around humans.
+Soft robots tend to rely on internal structures to operate. The infamous [PneuNets actuator](//softroboticstoolkit.com/book/pneunets-bending-actuator) used in many different soft robotic designs rely on a set of internal bellows that expand. Soft robotic sensors, especially those that operate using fluids like [salt water](//rombolabs.github.io/publications/preechayasomboon2019.pdf) or [EGaIn](//softroboticstoolkit.com/book/egain-sensors), rely on fluid channels that change shape and volume. The most common design element amongst these robotic components is usually silicone elastomer. Silicone rubber, unlike metal and most plastics, can stretch and deform by over 600% their original shape. Silicone rubber is also soft and compliant, like human tissue, so it is safer to be used around humans.
 
 However, the main disadvantage of silicone rubber is that it is so compliant that traditional machining or manufacturing to achieve highly complex shapes is not feasible. This is why **molding and casting** silicone rubber is usually the preferred method for making soft robots.
 
@@ -33,7 +33,7 @@ External features can be created with molds, but what about internal features? I
 
 For soft robots, the core usually makes up the internal features of the components, such as a bladder or fluid channel. Wax can be used to make soft robot cores, but wax is prone to dimensional inaccuracies by shrinkage and is very fragile. Wax also requires being melted out, which depending on the wax can leave unwanted residue on the internal surface. Some internal features can be made by casting two or more separate pieces of the soft robotic component and later bond them together, but this requires multiple steps and the bonding can ultimately fail.
 
-☆ Our paper introduces two new concepts to soft robotic fabrication: 3D printed [sacrificial](/negshell-cores) and [structural cores](/structural-cores) that are designed to be *left in* the soft robotic component rather than being removed after casting.
+☆ Our paper introduces two new concepts to soft robotic fabrication: 3D printed [sacrificial](negshell-cores) and [structural cores](structural-cores) that are designed to be *left in* the soft robotic component rather than being removed after casting.
 
 ## Materials and Equipment
 The following is a non-exhaustive list of materials and equipment for fabricating silicone-rubber based soft robots
@@ -95,7 +95,7 @@ Here are guidelines to casting soft robotic parts using silicone rubber. Some of
 (A ☆ denotes where our paper contributes to the overall process.)
 
 1. **Prepare mold** by cleaning the mold thoroughly and applying a thin coat of release agent and letting it dry.
-    1. ☆ **Prepare cores**: this can be either 3D printing our [cores](/negshell-cores) or similar cores. And insert the cores into the mold.
+    1. ☆ **Prepare cores**: this can be either 3D printing our [cores](negshell-cores) or similar cores. And insert the cores into the mold.
     1. or go through a process as long as the upcoming steps just to cast the cores in wax and insert them into the mold.
     1. **Close and clamp the mold** parts shut tightly - silicone is highly viscous and can build up a lot of pressure.
 1. **Mix silicone** by adding Part A and Part B to a plastic cup in amounts according to the manufacturer. Any pigments for coloring, or additives can be added too (for speeding up curing, slowing curing, lowering viscosity, increasing viscosity, etc.). If small amounts of silicone rubber is to be used, use an accurate digital scale (0.1 grams resolution or better). Generally, a mismatch of 0.5 - 1 gram is acceptable for 1-to-1 part platinum-cure silicone that total < 50 grams after mixing. **Stir vigorously** if vacuum degassing later. **Use a cup that is at least three times taller than the mixed silicone** if vacuum degassing. Make sure to scrape all sides of the cup.

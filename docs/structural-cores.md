@@ -8,7 +8,7 @@ layout: default
 {: .no_toc }
 Structural cores, unlike negshell cores, are not meant to be crushed or broken. Structural cores serve two purposes: 1. To modulate the local stiffness of soft robotic structures. 2. To reduce the overall weight of the soft robot. Structural cores are simply thin-walled geometry that serves as voids inside the soft robot.
 
-For example, we use several structural cores to help transmit the force from the fingertip to the mounting base in our [Finger](/example-finger) example. Another example is using structural cores to create rigid endoskeleton for larger structures that would otherwise droop or collapse if made purely from silicone, such as wings.
+For example, we use several structural cores to help transmit the force from the fingertip to the mounting base in our [Finger](example-finger) example. Another example is using structural cores to create rigid endoskeleton for larger structures that would otherwise droop or collapse if made purely from silicone, such as wings.
 
 ## Table of contents
 {: .no_toc .text-delta }
