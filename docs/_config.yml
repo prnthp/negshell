@@ -5,5 +5,5 @@ title: Negshell Casting
 remote_theme: pmarsceill/just-the-docs
 description: 'Negshell casting: 3D-printed structured and sacrificial cores for soft robot fabrication companion documentation'
 aux_links:
-  "Read the Paper":
+  'Read the Paper':
     - "//collections.plos.org/s/soft-robotics"
