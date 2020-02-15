@@ -16,6 +16,8 @@ layout: default
 {:toc}
 
 ## Design
+To characterize how negshell and structural cores change the stiffness of silicone rubber, we used ⌀16 mm x 11 mm hollow cylinder cores that are casted in mold, creating a cylindrical specimen ⌀20 mm x 15 mm in size.
+
 <model-viewer src="files/visuals/PerfBoth.glb"
     alt="Negshell Core"
     shadow-intensity="1"
@@ -39,3 +41,6 @@ layout: default
 </model-viewer>
 
 ## Experimental Setup
+We placed the cores under compression using a TA Instruments Electoforce 3200 Mechanical Tester. The specimens are first preloaded slightly and then compressed cyclicly. Further details about characterization are in the paper.
+
+<img src="images/experimentalSetup.jpg" alt="Experimental Setup" width="541px" />

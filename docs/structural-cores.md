@@ -6,9 +6,14 @@ layout: default
 
 # Structural Cores
 {: .no_toc }
+
+<img src="images/structuralCores.png" alt="Structural Cores" width="541px" />
+
 Structural cores, unlike negshell cores, are not meant to be crushed or broken. Structural cores serve two purposes: 1. To modulate the local stiffness of soft robotic structures. 2. To reduce the overall weight of the soft robot. Structural cores are simply thin-walled geometry that serves as voids inside the soft robot.
 
 For example, we use several structural cores to help transmit the force from the fingertip to the mounting base in our [Finger](example-finger) example. Another example is using structural cores to create rigid endoskeleton for larger structures that would otherwise droop or collapse if made purely from silicone, such as wings.
+
+<img src="images/structuralCoreTransmission.png" alt="Finger showing force transmission" width="541px" />
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -17,8 +22,9 @@ For example, we use several structural cores to help transmit the force from the
 {:toc}
 
 ## Characteristics
-Structural cores will increase the stiffness (Elastic Modulus) of the silicone part up to over 500% and depending on the thickness of the structural core and weight down to 67% depending on the geometry. The following plot shows the different stress-strain curves achieved with various thicknesses of the structural cores.
+Structural cores will increase the stiffness (Elastic Modulus) of the silicone part up to over 500% and depending on the thickness and orientation of the structural core and weight down to 67% depending on the geometry. The following plot shows the different stress-strain curves achieved with various thicknesses of the structural cores.
 
+<img src="images/structuralCharacteristics.png" alt="Structural Core Characteristics" width="541px" />
 
 ## Designing
 Creating structural cores in CAD is similar to the workflow for negshell cores. The only difference is there is no perforation.

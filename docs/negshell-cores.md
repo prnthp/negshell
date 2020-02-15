@@ -7,6 +7,9 @@ layout: default
 
 # Negshell Cores
 {: .no_toc }
+
+<img src="images/negshellCores.png" alt="Negshell Cores" width="541px" />
+
 Typical [cores](molding-and-casting#cores) during molding and casting need to be removed after casting. This is fine for solid structures that are orders of magnitude more stronger than their cores such as sand-based cores for metal casting. For weaker materials, such as those used in soft robotics and wax or other dissolvable cores can be used. The problem with wax or dissolvable cores is that they often do not have the geometric stability and accuracy afforded by their respective fabrication methods. For example, wax is very fragile and prone to breaking, and has significant shrinkage.
 
 For soft robots, the cores are essential to make the internal features such as fluid channels, expanding bellows and sensor structures. Cores that have to be removed later greatly reduces the design flexibility and increase the amount of steps required to fabricate soft robots. Our **negshell cores** introduce a new type of core that does not need to be removed in any step of the fabrication process!
@@ -25,11 +28,11 @@ Note that negshell cores need not be closed volumes, they can be thin walls that
 ## Characteristics
 Breaking the negshell cores after casting requires little effort by pinching and crushing with the hand.
 
-
+<video src="images/crushSquish.mp4" width="541" height="300" autoplay loop controls preload></video>
 
 Silicone-based structures with broken negshell cores behave similarly in compression to structures without any cores. We go over the characterization in the paper. The results can be summarized in the following stress-strain curve plot and resulting elastic modulus.
 
-
+<img src="images/negshellCharacteristics.png" alt="Negshell Characteristics" width="541px" />
 
 ## Designing
 Creating negshell cores in CAD is a straightforward process and can be adapted to many different CAD software pipelines.

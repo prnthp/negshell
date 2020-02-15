@@ -7,7 +7,7 @@ layout: default
 
 # Example: Soft Robotic Finger
 {: .no_toc }
-There will be pretty pictures here!
+This
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -29,5 +29,6 @@ There will be pretty pictures here!
 </model-viewer>
 
 ## Printing
+
 
 ## Fabrication
