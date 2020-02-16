@@ -3,7 +3,7 @@ title: 'Test Specimens'
 nav_order: 4
 layout: default
 ---
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<script type="module" src="http://modelviewer.dev/node_modules/@google/model-viewer/dist/model-viewer.js"></script>
 
 # Specimens for Mechanical Testing
 {: .no_toc }
@@ -16,8 +16,7 @@ layout: default
 {:toc}
 
 ## Design
-To characterize how negshell and structural cores change the stiffness of silicone rubber, we used ⌀16 mm x 11 mm hollow cylinder cores that are casted in mold, creating a cylindrical specimen ⌀20 mm x 15 mm in size.
-
+To characterize how negshell and structural cores change the stiffness of silicone rubber, we used ⌀16 mm x 11 mm hollow cylinder cores that are casted in a mold, creating a cylindrical specimens ⌀20 mm x 15 mm in size.
 <model-viewer src="files/visuals/PerfBoth.glb"
     alt="Negshell Core"
     shadow-intensity="1"
@@ -44,3 +43,10 @@ To characterize how negshell and structural cores change the stiffness of silico
 We placed the cores under compression using a TA Instruments Electoforce 3200 Mechanical Tester. The specimens are first preloaded slightly and then compressed cyclicly. Further details about characterization are in the paper.
 
 <img src="images/experimentalSetup.jpg" alt="Experimental Setup" width="541px" />
+
+### Video: Negshell Core Under Testing
+<video src="images/negshellTrimmed.mp4" width="540" height="300" autoplay loop controls preload></video>
+
+### Video: Structural Core Under Testing
+<video src="images/structuralTrimmed.mp4" width="540" height="300" autoplay loop controls preload></video>
+*Note: The testing shown is a mock trial for recording purposes, the specimen was incorrectly preloaded.*
