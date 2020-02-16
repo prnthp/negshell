@@ -30,8 +30,8 @@ layout: default
     display: none;
   }
 </style>
-<script type="module" src="http://modelviewer.dev/node_modules/@google/model-viewer/dist/model-viewer.js"></script>
-<!-- <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script> Annotations don't work!-->
+<!-- <script type="module" src="http://modelviewer.dev/node_modules/@google/model-viewer/dist/model-viewer.js"></script> -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
 
 
 # Example: Soft Robotic Finger
