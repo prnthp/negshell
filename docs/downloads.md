@@ -26,7 +26,7 @@ These are the test specimen cores and molds.
 |Structural Core (.STEP)        |[Download](#){: .btn }|
 |Molds (.STEP)                  |[Download](#){: .btn }|
 |All CAD Files (.STEP in .ZIP)  |[Download](#){: .btn }|
-|Form 3 Print Files (.preform)  |[Download](#){: .btn }|
+|Form 3 Print Files (.form)     |[Download](#){: .btn }|
 
 ## Finger
 
@@ -35,7 +35,7 @@ These are the test specimen cores and molds.
 |Cores (.STEP in .ZIP)          |[Download](#){: .btn }|
 |Molds (.STEP in .ZIP)          |[Download](#){: .btn }|
 |All CAD Files (.STEP in .ZIP)  |[Download](#){: .btn }|
-|Form 3 Print Files (.preform)  |[Download](#){: .btn }|
+|Form 3 Print Files (.form)     |[Download](#){: .btn }|
 
 ## Soft Robotic Gripper
 
@@ -45,7 +45,7 @@ These are the test specimen cores and molds.
 |Molds (.STEP in .ZIP)          |[Download](#){: .btn }|
 |Base (.STEP)                   |[Download](#){: .btn }|
 |All CAD Files (.STEP in .ZIP)  |[Download](#){: .btn }|
-|Form 3 Print Files (.preform)  |[Download](#){: .btn }|
+|Form 3 Print Files (.form)     |[Download](#){: .btn }|
 
 ## Experimental Data
 Data (.csv) used for the experiments in the paper and scripts that process the data (.m, MATLAB).
