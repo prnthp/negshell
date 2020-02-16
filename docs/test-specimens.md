@@ -3,7 +3,7 @@ title: 'Test Specimens'
 nav_order: 4
 layout: default
 ---
-<script type="module" src="http://modelviewer.dev/node_modules/@google/model-viewer/dist/model-viewer.js"></script>
+<script type="module" src="https://modelviewer.dev/dist/model-viewer.js"></script>
 
 # Specimens for Mechanical Testing
 {: .no_toc }

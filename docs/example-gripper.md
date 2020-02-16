@@ -3,7 +3,7 @@ title: 'Example: Soft Robotic Gripper'
 nav_order: 6
 layout: default
 ---
-<script type="module" src="http://modelviewer.dev/node_modules/@google/model-viewer/dist/model-viewer.js"></script>
+<script type="module" src="https://modelviewer.dev/dist/model-viewer.js"></script>
 
 # Example: Soft Robotic Gripper
 {: .no_toc }
