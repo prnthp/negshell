@@ -10,7 +10,7 @@ layout: default
 
 <img src="images/negshellCores.png" alt="Negshell Cores" width="541px" />
 
-Typical [cores](molding-and-casting#cores) during molding and casting need to be removed after casting. This is fine for solid structures that are orders of magnitude more stronger than their cores such as sand-based cores for metal casting. For weaker materials, such as those used in soft robotics and wax or other dissolvable cores can be used. The problem with wax or dissolvable cores is that they often do not have the geometric stability and accuracy afforded by their respective fabrication methods. For example, wax is very fragile and prone to breaking, and has significant shrinkage.
+Typical [cores](molding-and-casting#cores) during molding and casting need to be removed after casting. This is fine for solid structures that are orders of magnitude more stronger than their cores such as sand-based cores for metal casting. For weaker materials, such as those used in soft robotics, wax or other dissolvable cores can be used. The problem with wax or dissolvable cores is that they often do not have the geometric stability and accuracy afforded by their respective fabrication methods. For example, wax is very fragile and prone to breaking, and has significant shrinkage.
 
 For soft robots, the cores are essential to make the internal features such as fluid channels, expanding bellows and sensor structures. Cores that have to be removed later greatly reduces the design flexibility and increase the amount of steps required to fabricate soft robots. Our **negshell cores** introduce a new type of core that does not need to be removed in any step of the fabrication process!
 
@@ -26,7 +26,7 @@ Note that negshell cores need not be closed volumes, they can be thin walls that
 
 
 ## Characteristics
-Breaking the negshell cores after casting requires little effort by pinching and crushing with the hand.
+Breaking the negshell cores after casting requires little effort by pinching and crushing by hand.
 
 <video src="images/crushSquish.mp4" width="541" height="300" autoplay loop controls preload></video>
 
@@ -44,7 +44,7 @@ Creating negshell cores in CAD is a straightforward process and can be adapted t
     1. *SW* - Use the **Surface Offset** command and set the **Offset to 0 mm** to create a copy of the surface.
     1. *SW* - Use the **Thicken** command to thicken the surface by **0.4 mm** inwards (right most button of the three options). Make sure to **untick Merge Result**. Then hide the original solid body. *This thickness can be tweaked and tuned for different printers or materials.*
 1. Cut perforations into the core using this pattern:
-    1. *SW* - Create a sketch in the desired plane and use [this](LINK_TO_BLOCK) pattern by going to **Tools → Blocks → Insert**. Position and insert multiple blocks to cover the desired area. *This perforation pattern can be tweaked and tuned for different printers or materials.*
+    1. *SW* - Create a sketch in the desired plane and use [this](downloads) pattern by going to **Tools → Blocks → Insert**. Position and insert multiple blocks to cover the desired area. *This perforation pattern can be tweaked and tuned for different printers or materials.*
     1. *SW* - Use the **Cut-Extrude** command to cut the perforations into the parts. Use the **Through All - Both** option to ensure the whole part is cut.
     1. *SW* - Repeat the above steps for cutting perforations in multiple directions. Generally one direction suffices.
     1. *SW* - (Optional) Sometimes the perforations result in multiple bodies - keep all the bodies. Put the core bodies in a folder for easier handling.
