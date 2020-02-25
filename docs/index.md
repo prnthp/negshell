@@ -16,4 +16,4 @@ Questions beyond the documentation? Please submit an [Issue](//github.com/prnthp
 
 ### Paper Authors
 - Jom Preechayasomboon - [prnthp.github.io](//prnthp.github.io)
-- Eric Rombokas - [rombolabs.github.io](//rombolabs.github.io), [rombokas.com/eric](//rombokas.com/eric)
+- Eric Rombokas - [rombolabs.github.io](//rombolabs.github.io)
